@@ -1,0 +1,28 @@
+﻿	Программа делает:
+1. "Захват" экрана в 24-битную картинку и сохранение её в файл BMP.
+2. Показ картинки в программе по умолчанию.
+
+Никаких окон и управления нет. Файл не перезаписывается.
+
+	Командная строка
+1. Захват сразу после запуска:
+	screen2bmp.exe =картинка.bmp
+
+2. Ожидание нажатия клавиши CTRL около 2 минут и захват по её нажатию.
+	screen2bmp.exe ==картинка.bmp
+(Программа будет "висеть" в памяти пока не пройдёт 2 минуты или не нажата CTRL!)
+
+_______________________________________________________________
+	Program do:
+1. Captures screen to 24-bit BMP file (no overwrite).
+2. Opens picture in default viewer. 
+
+No any controls & windows. 
+
+Command line
+1. Instant capture:
+screen2bmp.exe =picture.bmp 
+
+2. Wait 2 minutes for CTRL key and capture at press:
+screen2bmp.exe ==picture.bmp
+(Program will stay in memory 2 minutes or until CTRL is not pressed!) 
